@@ -2,7 +2,7 @@ import { Element } from 'react-scroll';
 import { useEffect, useState } from 'react';
 import Card from './components/Card.jsx';
 
-// https://api.github.com/users/DevanshuTripathi/repos
+// https://api.github.com/users/armaanit/repos
 
 function Projects() {
 
@@ -10,7 +10,7 @@ function Projects() {
 
     const [repos, addRepo] = useState([]);
 
-    const url = 'https://api.github.com/users/DevanshuTripathi/repos';
+    const url = 'https://api.github.com/users/armaanit/repos';
 
     useEffect(() => {
         fetch(url)

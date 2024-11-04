@@ -18,7 +18,7 @@ function NavBar() {
         <div className="navbar mr-0 fixed overflow-hidden top-0 ">
             <ul className="hidden text-sm md:flex-row md:text-lg md:flex px-10 gap-10 py-5 nav ">
                 <li>
-                    Devanshu Tripathi
+                    Armaanit Singh
                 </li>
                 <li>
                     <Link to="introduction" smooth={true} duration={500}>

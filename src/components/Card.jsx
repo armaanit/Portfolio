@@ -4,7 +4,7 @@ function Card(props) {
 
     const [img, setImage] = useState('');
 
-    const urlimg = `https://api.github.com/repos/DevanshuTripathi/${props.name}/contents/thumbnail.png`;
+    const urlimg = `https://api.github.com/repos/armaanit/${props.name}/contents/thumbnail.png`;
 
     useEffect(() => {
         fetch(urlimg)
